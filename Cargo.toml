@@ -1,0 +1,11 @@
+[package]
+name = "decentralchain-protobuf-schemas"
+version = "1.5.2"
+edition = "2021"
+
+[dependencies]
+tonic = "0.10"
+prost = { version = "0.12", features = ["no-recursion-limit"] }
+
+[build-dependencies]
+tonic-build = "0.10"

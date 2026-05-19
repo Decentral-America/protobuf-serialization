@@ -1,7 +1,7 @@
 syntax = "proto3";
 package waves;
 option java_package = "io.decentralchain.protobuf.dapp";
-option go_package = "github.com/Decentral-America/protobuf-serialization/pkg/ride/meta/generated";
+option go_package = "github.com/Decentral-America/node-go/pkg/ride/meta/generated";
 option csharp_namespace = "DecentralChain";
 
 message DAppMeta {
